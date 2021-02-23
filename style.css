@@ -1,0 +1,24 @@
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto auto;
+  text-align: center;
+  border: solid 1px #c2c2c2;
+  padding-bottom: 3px;
+  margin: auto;
+  background: #fafafa;
+}
+
+.numeroDisplay { width: 250px; border: 2px black solid; text-align: right; 
+    position: relative; left: 10px;  padding: 3px 5px;
+    background-color: white; font-family: "courier new"; 
+    overflow: hidden;
+font-size: large;}
+
+.botonOp{
+font-size: large;
+background-color: #000;
+color: #fff
+}
+body{
+    background-color: darkslategray;
+}
